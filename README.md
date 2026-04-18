@@ -25,3 +25,26 @@ This task has various real-world applications. Sentiment analysis is widely used
 Overall, this task helps in understanding how text data can be processed using NLP techniques and how machine learning models can be applied to extract valuable insights. It provides practical knowledge of handling real-world text data and building predictive models for sentiment classification.
 
 OUTPUT:
+
+Accuracy: 0.5
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.50      1.00      0.67         1
+           1       0.00      0.00      0.00         1
+
+    accuracy                           0.50         2
+   macro avg       0.25      0.50      0.33         2
+weighted avg       0.25      0.50      0.33         2
+
+
+Confusion Matrix:
+ [[1 0]
+ [1 0]]
+/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
